@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bookmarks",
+      "handler": "bookmarks.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bookmarks/count",
+      "handler": "bookmarks.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bookmarks/:id",
+      "handler": "bookmarks.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bookmarks",
+      "handler": "bookmarks.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bookmarks/:id",
+      "handler": "bookmarks.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bookmarks/:id",
+      "handler": "bookmarks.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

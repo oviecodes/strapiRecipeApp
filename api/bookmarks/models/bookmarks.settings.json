@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookmarks",
+  "info": {
+    "name": "Bookmarks",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "bookmarks"
+    },
+    "label": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "ingredientLines": {
+      "type": "json"
+    },
+    "image": {
+      "type": "string"
+    },
+    "yield": {
+      "type": "string"
+    }
+  }
+}
