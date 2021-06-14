@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "pg": "^8.6.0",
+    "pg-connection-string": "^2.5.0",
     "strapi": "3.6.3",
     "strapi-admin": "3.6.3",
     "strapi-connector-mongoose": "3.6.3",
