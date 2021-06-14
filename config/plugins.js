@@ -16,7 +16,7 @@ module.exports = ({ env }) => ({
     },
     settings: {
       defaultFrom: 'noreply@recipee.com',
-      defaultReplyTo: 'noreply@recipee.com',
+      defaultReplyTo: 'nonreply@recipee.com',
     },
   },
 });
