@@ -11,10 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "bookshelf": "^1.2.0",
     "pg": "^8.6.0",
     "pg-connection-string": "^2.5.0",
     "strapi": "3.6.3",
     "strapi-admin": "3.6.3",
+    "strapi-connector-bookshelf": "^3.6.3",
     "strapi-connector-mongoose": "3.6.3",
     "strapi-plugin-content-manager": "3.6.3",
     "strapi-plugin-content-type-builder": "3.6.3",
