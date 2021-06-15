@@ -5,8 +5,8 @@ module.exports = ({ env }) => ({
         service: 'Gmail',
 		host: 'smtp.gmail.com',
 		port: 465,
-		ssl: true,
-        tls: true,
+		ssl: false,
+        tls: false,
         
         auth: {
             user: env('GMAIL_USER'),
