@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "bookshelf": "^1.2.0",
+    "knex": "^0.95.6",
     "pg": "^8.6.0",
     "pg-connection-string": "^2.5.0",
     "strapi": "3.6.3",
